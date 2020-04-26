@@ -1,5 +1,9 @@
-import 'package:material_about/material_about.dart';
+import 'package:about/about.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:share/share.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class About extends StatefulWidget {
   @override
@@ -7,46 +11,72 @@ class About extends StatefulWidget {
 }
 
 class _AboutState extends State<About> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Acerca de"),
-        backgroundColor: Color(0xFFC17900),
-      ),
-      body: MaterialAbout(
-        name: "Isaias Contreras",
-        position: "<impulsAPP>",
-        seperatorColor: Colors.grey,
-        iconColor:  Color(0xFFC17900),
-        textColor: Colors.black,
-//        playstoreID: "1111111111111",
-//        github: "YourID", //e.g JideGuru
-//        bitbucket: "YourID",
-//        facebook: "YourID", //e.g jideguru
-        twitter: "isayasmx", //e.g JideGuru
-//        instagram: "yourID", //e.g jideguru
-//        youtube: "yourID",
-//        dribble: "yourID",
-        linkedin: "isayas",
-        email: "isaias.cb@gmail.com",
-        whatsapp: "+5215544224810", //without international code e.g 22994684468.
-//        skype: "yourID",
-//        google: "yourSearchQuery",
-//        android: "yourID",
-//        website: "yourURL",
-        appIcon: "images/appIcon.png",
-        appName: "ConsumeLocal",
-        appVersion: "1.0.0",
-//        removeAds: "Link to pro app",
-        description: "Brinda una solución práctica para llamar a los negocios locales de la ciudad. \n Los negocios pueden contar con servicio a domicilio o bien hacer uso de los motoservicios que también se encuentran en este directorio.",
-        donate: "https://docs.google.com/forms/d/e/1FAIpQLSdNMuX0EbTvcGqsBWE_WXuQUWtWuF0uKf_X6GGcwpgfdrHLFQ/viewform?usp=sf_link",
-//        changelog: "Link to changeLog",
-//        help: "Link to about app", //to be improved soon
-        share: "Te invito a instalar la app #ConsumeLocal #Chetumal para que contactes facilmente a tu negocio local preferido.",
-        devID: "8634998114706028276",
-      ),
-    );
+  Future<void> _launched;
+
+  Future<void> _makePhoneCall(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 
+  @override
+  Widget build(BuildContext context) {
+    Widget aboutPage = AboutPage(
+      title: Text('Acerca de'),
+      applicationVersion: 'Version 1.0.2',
+      applicationDescription: Text(
+        'Brinda una solución práctica para llamar a los negocios locales de la ciudad. Estos pueden contar con servicio a domicilio o bien hacer uso de los motoservicios que también se encuentran en este directorio.\n#ConsumeLocal',
+        textAlign: TextAlign.justify,
+      ),
+      applicationIcon: Image(
+        image: AssetImage('images/appIcon.png'),
+        height: 128,
+      ),
+      applicationLegalese: '© Isaias Contreras <impulsAPP>, {{ year }}',
+      children: <Widget>[
+        Card(
+          child: ListTile(
+            title: Text('Comparte esta app'),
+            leading: FaIcon(FontAwesomeIcons.shareAlt),
+            onTap: () {
+              _shareApp(context);
+            },
+          ),
+        ),
+        Card(
+          child: ListTile(
+            title: Text('Califica esta app'),
+            leading: FaIcon(FontAwesomeIcons.star),
+            onTap: () {
+              _launched = _makePhoneCall(
+                  'https://play.google.com/store/apps/details?id=me.impulsapp.consumelocal');
+            },
+          ),
+        ),
+        Card(
+          child: ListTile(
+            title: Text('Contacta al desarrollador'),
+            leading: FaIcon(FontAwesomeIcons.solidEnvelope),
+            onTap: () {
+              _launched = _makePhoneCall('mailto:isaias.cb@gmail.com');
+            },
+          ),
+        ),
+      ],
+    );
+
+    return Scaffold(
+      body: aboutPage,
+    );
+  }
+}
+
+_shareApp(BuildContext context) {
+  final RenderBox box = context.findRenderObject();
+  Share.share(
+      'Descarga la app #ConsumeLocal y contacta facilmente a tu negocio favorito https://play.google.com/store/apps/details?id=me.impulsapp.consumelocal',
+      subject: 'Descarga la app ConsumeLocal',
+      sharePositionOrigin: box.localToGlobal(Offset.zero) & box.size);
 }

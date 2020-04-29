@@ -1,11 +1,13 @@
 import 'dart:ui';
 
+import 'package:avatar_letter/avatar_letter.dart';
 import 'package:consumelocal/main.dart';
 import "package:flutter/material.dart";
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:transparent_image/transparent_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share/share.dart';
-import 'package:cached_network_image/cached_network_image.dart';
+import 'package:firebase_image/firebase_image.dart';
 
 class LocalStoreDetail extends StatelessWidget {
   final Record _localStore;
@@ -24,7 +26,7 @@ class LocalStoreDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget titleSection = Container(
-      padding: const EdgeInsets.all(32),
+      padding: const EdgeInsets.all(20),
       child: Row(
         children: [
           Expanded(
@@ -37,7 +39,7 @@ class LocalStoreDetail extends StatelessWidget {
                     _localStore.name,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 20,
+                      fontSize: 28,
                     ),
                   ),
                 ),
@@ -136,32 +138,49 @@ class LocalStoreDetail extends StatelessWidget {
       ),
     );
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(_localStore.subcategory),
-        backgroundColor: Colors.deepOrange,
-      ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            Container(
-              padding: EdgeInsets.all(16),
-              width: 120,
-              child: Hero(
-                tag: "avatar_" + _localStore.id.toString(),
-                child: CachedNetworkImage(
-                  fit: BoxFit.fitWidth,
-                  imageUrl: _localStore.avatar,
-                  placeholder: (context, url) => CircularProgressIndicator(),
+    Widget avatarImage = FadeInImage(
+        placeholder: MemoryImage(kTransparentImage),
+        image: FirebaseImage(
+          'gs://consumelocaldb.appspot.com/avatar/' +
+              _localStore.id.toString()+'.'+ _localStore.avatarExt,
+        ),
+      );
+
+    Widget avatarText = AvatarLetter(
+      size: 48,
+      backgroundColor: Colors.deepOrangeAccent,
+      textColor: Colors.white,
+      fontSize: 32,
+      upperCase: true,
+      numberLetters: 2,
+      letterType: LetterType.Rectangle,
+      text: _localStore.name,
+      backgroundColorHex: null,
+      textColorHex: null,
+    );
+
+      return Scaffold(
+        appBar: AppBar(
+          title: Text(_localStore.subcategory),
+          backgroundColor: Colors.deepOrange,
+        ),
+        body: Center(
+          child: Column(
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(10),
+                width: 200,
+                child: Hero(
+                    tag: "avatar_" + _localStore.id.toString(),
+                    child: _localStore.avatarExt.isNotEmpty ? avatarImage : avatarText
                 ),
               ),
-            ),
-            titleSection,
-            buttonSection,
-            textSection,
-          ],
+              titleSection,
+              buttonSection,
+              textSection,
+            ],
+          ),
         ),
-      ),
-    );
+      );
   }
 }

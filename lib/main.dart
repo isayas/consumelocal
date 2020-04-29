@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:grouped_list/grouped_list.dart';
 import 'package:consumelocal/ui/about.dart';
 import 'package:consumelocal/ui/detail.dart';
-import 'package:cached_network_image/cached_network_image.dart';
+import 'package:avatar_letter/avatar_letter.dart';
 
 void main() => runApp(MyApp());
 
@@ -225,9 +225,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                   ),
-                  child: CachedNetworkImage(
-                    imageUrl: record.avatar,
-                    placeholder: (context, url) => CircularProgressIndicator(),
+                  child: AvatarLetter(
+                    size: 64,
+                    backgroundColor: Colors.white,
+                    textColor: Colors.deepOrangeAccent,
+                    fontSize: 40,
+                    upperCase: true,
+                    numberLetters: 2,
+                    letterType: LetterType.Rectangle,
+                    text: record.name,
+                    backgroundColorHex: null, textColorHex: null
                   ),
                 ),
               ),
@@ -249,7 +256,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onTap: () => Navigator.push(
             context,
             PageRouteBuilder(
-                transitionDuration: Duration(milliseconds: 500),
+                transitionDuration: Duration(milliseconds: 800),
                 pageBuilder: (_, __, ___) => LocalStoreDetail(record))),
         child: Container(
           padding: EdgeInsets.all(10),
@@ -263,9 +270,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                   ),
-                  child: CachedNetworkImage(
-                    imageUrl: record.avatar,
-                    placeholder: (context, url) => CircularProgressIndicator(),
+                  child: AvatarLetter(
+                    size: 48,
+                    backgroundColor: Colors.deepOrangeAccent,
+                    textColor: Colors.white,
+                    fontSize: 32,
+                    upperCase: true,
+                    numberLetters: 2,
+                    letterType: LetterType.Rectangle,
+                    text: record.name,
+                    backgroundColorHex: null,
+                    textColorHex: null,
                   ),
                 ),
               ),
@@ -275,7 +290,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(record.name,
                       overflow: TextOverflow.ellipsis,
                       style:
-                          TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w400)),
                 ),
               )
             ],
@@ -291,24 +306,24 @@ class Record {
   final String name;
   final String phone;
   final String subcategory;
-  final String avatar;
+  final String avatarExt;
   final DocumentReference reference;
 
   Record.fromMap(Map<String, dynamic> map, {this.reference})
       : assert(map['nombre'] != null),
         assert(map['telefono'] != null),
         assert(map['subcategoria'] != null),
+        assert(map['avatarExt'] != null),
+
         id = reference.documentID,
         name = map['nombre'],
         phone = map['telefono'].toString(),
-        subcategory = map['subcategoria'],
-        avatar =
-            'https://ui-avatars.com/api/?background=FF6E40&color=fff&name=' +
-                map['nombre'];
+        subcategory = map['subcategoria'], 
+        avatarExt = map['avatarExt'];
 
   Record.fromSnapshot(DocumentSnapshot snapshot)
       : this.fromMap(snapshot.data, reference: snapshot.reference);
 
   @override
-  String toString() => "Record<$id:$name:$phone:$subcategory:$avatar>";
+  String toString() => "Record<$id:$name:$phone:$subcategory:$avatarExt>";
 }

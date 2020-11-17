@@ -6,7 +6,7 @@ Se pone a disposición de quien desee retormar o bien considerar algunas partes 
 - Se desarrolló en Flutter sin tener conocimientos de este SDK de Google por lo que verán cuestiones básicas en su interior.
 - Hace uso de Firebase (se elimina la configuración del servicio por cuestiones de privacidad)
 
-Cualquier duda al respecto con gusto a través del correo isaias.cb@gmail.com(mailto:isaias.cb@gmail.com)
+Cualquier duda al respecto con gusto a través del correo isaias.cb@gmail.com
 
 
 # consumelocal

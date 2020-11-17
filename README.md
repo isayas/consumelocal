@@ -5,6 +5,9 @@ Se pone a disposición de quien desee retormar o bien considerar algunas partes 
 
 - Se desarrolló en Flutter sin tener conocimientos de este SDK de Google por lo que verán cuestiones básicas en su interior.
 - Hace uso de Firebase (se elimina la configuración del servicio por cuestiones de privacidad)
+- Tuvimos la oportunidad de participar en Hack The Crisis MX en la vertical de "Reactivación Económica" con el apoyo de: Brenda Elizabeth García López - COAH / Carlos Alberto García Hernández - CDMX / Gregorio Ederli Salazar Loria - QROO
+
+https://youtu.be/PsSD8Z5Qjco
 
 Cualquier duda al respecto con gusto a través del correo isaias.cb@gmail.com
 

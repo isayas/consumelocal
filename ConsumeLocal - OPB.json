@@ -1,0 +1,779 @@
+{
+  "001": {
+    "nombre": "El Taquito De Chetumal",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831292381,
+    "avatarExt": "jpg"
+  },
+  "002": {
+    "nombre": "Mini Super Marber",
+    "categoria": "Tienda",
+    "subcategoria": "Minisuper",
+    "telefono": 9831409532,
+    "avatarExt": ""
+  },
+  "003": {
+    "nombre": "Machacados Pinooohcho",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831044914,
+    "avatarExt": "jpg"
+  },
+  "004": {
+    "nombre": "Tortas Y Tacos Don Memo Jr.",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831231163,
+    "avatarExt": "jpg"
+  },
+  "005": {
+    "nombre": "Brew Cafeteria",
+    "categoria": "Comida",
+    "subcategoria": "Café",
+    "telefono": 9838332227,
+    "avatarExt": "jpg"
+  },
+  "006": {
+    "nombre": "La Bague Shop",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831680335,
+    "avatarExt": "png"
+  },
+  "007": {
+    "nombre": "Banquetakos",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9838332020,
+    "avatarExt": "jpg"
+  },
+  "008": {
+    "nombre": "Forasteros",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9838331500,
+    "avatarExt": "jpg"
+  },
+  "009": {
+    "nombre": "Bucaneros",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831441700,
+    "avatarExt": ""
+  },
+  "010": {
+    "nombre": "One4You One4Me Comida",
+    "categoria": "Comida",
+    "subcategoria": "Americana",
+    "telefono": 9831207359,
+    "avatarExt": "jpg"
+  },
+  "011": {
+    "nombre": "La Michoacana",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831267485,
+    "avatarExt": "png"
+  },
+  "012": {
+    "nombre": "Los Cebollones",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831847980,
+    "avatarExt": "jpg"
+  },
+  "013": {
+    "nombre": "La Casita Del Chef",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831291954,
+    "avatarExt": "jpg"
+  },
+  "014": {
+    "nombre": "Café Del Puerto",
+    "categoria": "Comida",
+    "subcategoria": "Café",
+    "telefono": 9832853898,
+    "avatarExt": "png"
+  },
+  "015": {
+    "nombre": "Ventolera",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9832673370,
+    "avatarExt": "jpg"
+  },
+  "016": {
+    "nombre": "Geestin - Contabilidad",
+    "categoria": "Servicios",
+    "subcategoria": "Despacho",
+    "telefono": 9831062172,
+    "avatarExt": "png"
+  },
+  "017": {
+    "nombre": "La Adelina Elotería",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831303235,
+    "avatarExt": "png"
+  },
+  "018": {
+    "nombre": "Dr. Luis Enrique Lopez Apodaca",
+    "categoria": "Salud",
+    "subcategoria": "De Cabecera",
+    "telefono": 9838351440,
+    "avatarExt": "png"
+  },
+  "019": {
+    "nombre": "Mi Sushi Kin",
+    "categoria": "Comida",
+    "subcategoria": "Japonesa",
+    "telefono": 9831442889,
+    "avatarExt": "jpg"
+  },
+  "020": {
+    "nombre": "Ristorante Positano",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831323730,
+    "avatarExt": "jpg"
+  },
+  "021": {
+    "nombre": "Las Quekas Del Centro",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831398375,
+    "avatarExt": "jpg"
+  },
+  "022": {
+    "nombre": "Zayzu",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831440104,
+    "avatarExt": "jpg"
+  },
+  "023": {
+    "nombre": "Kreizy Pizzas",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831191742,
+    "avatarExt": "jpg"
+  },
+  "024": {
+    "nombre": "Dolce Vita Studio Chetumal",
+    "categoria": "Salud",
+    "subcategoria": "Belleza",
+    "telefono": 9831199004,
+    "avatarExt": "jpg"
+  },
+  "025": {
+    "nombre": "Pescaderia El Pelícano",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9831165924,
+    "avatarExt": "jpg"
+  },
+  "026": {
+    "nombre": "Cynthia's",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9831026749,
+    "avatarExt": "png"
+  },
+  "027": {
+    "nombre": "Pollo Brujo",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9838374747,
+    "avatarExt": "jpg"
+  },
+  "028": {
+    "nombre": "Las Mismas",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9838334635,
+    "avatarExt": "jpg"
+  },
+  "029": {
+    "nombre": "Disfruta Tu Fruta",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831911390,
+    "avatarExt": "jpg"
+  },
+  "030": {
+    "nombre": "Vinilove",
+    "categoria": "Servicios",
+    "subcategoria": "Impresion",
+    "telefono": 9838374802,
+    "avatarExt": "jpg"
+  },
+  "031": {
+    "nombre": "Casa De Las Flores",
+    "categoria": "Comida",
+    "subcategoria": "Mexicana",
+    "telefono": 9831406483,
+    "avatarExt": "png"
+  },
+  "032": {
+    "nombre": "La Mexicana Helados Y Paletas",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831079430,
+    "avatarExt": "jpg"
+  },
+  "033": {
+    "nombre": "La Ksita De La Limpieza",
+    "categoria": "Servicios",
+    "subcategoria": "Limpieza",
+    "telefono": 9831385467,
+    "avatarExt": ""
+  },
+  "034": {
+    "nombre": "Los De Chetu",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9988376103,
+    "avatarExt": "jpg"
+  },
+  "035": {
+    "nombre": "Italian Steak House",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831270016,
+    "avatarExt": "png"
+  },
+  "036": {
+    "nombre": "Taqueria Don Miguel",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831620646,
+    "avatarExt": "jpg"
+  },
+  "037": {
+    "nombre": "Covadonga, Bordados Y Artesanias",
+    "categoria": "Servicios",
+    "subcategoria": "Artesania",
+    "telefono": 9831580813,
+    "avatarExt": "jpg"
+  },
+  "038": {
+    "nombre": "Chocolate Café",
+    "categoria": "Comida",
+    "subcategoria": "Café",
+    "telefono": 9831465764,
+    "avatarExt": "png"
+  },
+  "039": {
+    "nombre": "La Barra Señor Mono",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831868440,
+    "avatarExt": "jpg"
+  },
+  "040": {
+    "nombre": "Lanchua Pasta",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9832856138,
+    "avatarExt": ""
+  },
+  "041": {
+    "nombre": "Acuario Ocean Fish",
+    "categoria": "Servicios",
+    "subcategoria": "Animales",
+    "telefono": 9831832424,
+    "avatarExt": "jpg"
+  },
+  "042": {
+    "nombre": "Pollos Kukulkan Rostizado",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9831864036,
+    "avatarExt": "jpg"
+  },
+  "043": {
+    "nombre": "Las Del Chavo Se Chispotean De Sabor",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9832121273,
+    "avatarExt": "jpg"
+  },
+  "044": {
+    "nombre": "Antojitos Mary Carmen",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9832137578,
+    "avatarExt": ""
+  },
+  "045": {
+    "nombre": "El Cevichin",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9838674508,
+    "avatarExt": ""
+  },
+  "046": {
+    "nombre": "Vaso Loco: Botanas",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9821174420,
+    "avatarExt": ""
+  },
+  "047": {
+    "nombre": "Moto Diligencias Jireh",
+    "categoria": "Envios",
+    "subcategoria": "Motoservicio",
+    "telefono": 9831089970,
+    "avatarExt": ""
+  },
+  "048": {
+    "nombre": "Pizzas Caseras",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831173200,
+    "avatarExt": ""
+  },
+  "049": {
+    "nombre": "Empanadas Argentinas",
+    "categoria": "Comida",
+    "subcategoria": "Argentina",
+    "telefono": 9831113737,
+    "avatarExt": ""
+  },
+  "050": {
+    "nombre": "Despacho Juridico, Fiscal Y Contable.",
+    "categoria": "Servicios",
+    "subcategoria": "Despacho",
+    "telefono": 9831547312,
+    "avatarExt": ""
+  },
+  "051": {
+    "nombre": "Motoservicio Gorilla",
+    "categoria": "Envios",
+    "subcategoria": "Motoservicio",
+    "telefono": 9983082980,
+    "avatarExt": ""
+  },
+  "052": {
+    "nombre": "Plantas Y Tierra A Domicilio",
+    "categoria": "Servicios",
+    "subcategoria": "Plantas",
+    "telefono": 9831566562,
+    "avatarExt": ""
+  },
+  "053": {
+    "nombre": "Taquería Torro",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831348275,
+    "avatarExt": ""
+  },
+  "054": {
+    "nombre": "Salón Lazio",
+    "categoria": "Salud",
+    "subcategoria": "Belleza",
+    "telefono": 9831564450,
+    "avatarExt": ""
+  },
+  "055": {
+    "nombre": "Mini Super Karina",
+    "categoria": "Tienda",
+    "subcategoria": "Minisuper",
+    "telefono": 9831206563,
+    "avatarExt": ""
+  },
+  "056": {
+    "nombre": "Hamburguesas Asadas Al Carbón",
+    "categoria": "Comida",
+    "subcategoria": "Hamburguesas",
+    "telefono": 9831051751,
+    "avatarExt": ""
+  },
+  "057": {
+    "nombre": "Navaprint Impresiones",
+    "categoria": "Servicios",
+    "subcategoria": "Impresion",
+    "telefono": 9831559085,
+    "avatarExt": ""
+  },
+  "058": {
+    "nombre": "Taqueria El Almendro",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831380501,
+    "avatarExt": "jpg"
+  },
+  "059": {
+    "nombre": "Casa Mía",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831201503,
+    "avatarExt": ""
+  },
+  "060": {
+    "nombre": "Vaqueros Grill",
+    "categoria": "Comida",
+    "subcategoria": "Hamburguesas",
+    "telefono": 9831027530,
+    "avatarExt": ""
+  },
+  "061": {
+    "nombre": "Tsunami Express Food",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831191586,
+    "avatarExt": ""
+  },
+  "062": {
+    "nombre": "Tortas El Amigo",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831022087,
+    "avatarExt": ""
+  },
+  "063": {
+    "nombre": "Biomundo Biodegradable",
+    "categoria": "Servicios",
+    "subcategoria": "Limpieza",
+    "telefono": 9831371638,
+    "avatarExt": ""
+  },
+  "064": {
+    "nombre": "Lima Limón",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831346668,
+    "avatarExt": ""
+  },
+  "065": {
+    "nombre": "Cafecito De Olla",
+    "categoria": "Comida",
+    "subcategoria": "Café",
+    "telefono": 9831075492,
+    "avatarExt": ""
+  },
+  "066": {
+    "nombre": "La Pozoleria",
+    "categoria": "Comida",
+    "subcategoria": "Mexicana",
+    "telefono": 9831813891,
+    "avatarExt": ""
+  },
+  "067": {
+    "nombre": "Cabeza Negra",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9838366946,
+    "avatarExt": ""
+  },
+  "068": {
+    "nombre": "Lavandería Drops",
+    "categoria": "Servicios",
+    "subcategoria": "Limpieza",
+    "telefono": 9831265459,
+    "avatarExt": ""
+  },
+  "069": {
+    "nombre": "Taquería Díaz Grill",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831441046,
+    "avatarExt": ""
+  },
+  "070": {
+    "nombre": "Dalia Boutique Salón ",
+    "categoria": "Servicios",
+    "subcategoria": "Belleza",
+    "telefono": 9831075343,
+    "avatarExt": ""
+  },
+  "071": {
+    "nombre": "Pelukin Estética Infantil",
+    "categoria": "Servicios",
+    "subcategoria": "Belleza",
+    "telefono": 9831805552,
+    "avatarExt": ""
+  },
+  "072": {
+    "nombre": "Franco Laboratorios",
+    "categoria": "Salud",
+    "subcategoria": "Laboratorios",
+    "telefono": 9831381714,
+    "avatarExt": "jpg"
+  },
+  "073": {
+    "nombre": "La Hidalguense",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831717277,
+    "avatarExt": ""
+  },
+  "074": {
+    "nombre": "El Asado De Calochas",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831404050,
+    "avatarExt": ""
+  },
+  "075": {
+    "nombre": "Jossy",
+    "categoria": "Envios",
+    "subcategoria": "Motoservicio",
+    "telefono": 9831916008,
+    "avatarExt": ""
+  },
+  "076": {
+    "nombre": "Burritos El Rayo",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831118116,
+    "avatarExt": ""
+  },
+  "077": {
+    "nombre": "Claks Pizza",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831654073,
+    "avatarExt": ""
+  },
+  "078": {
+    "nombre": "La Popular Distribuidora",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9838333066,
+    "avatarExt": "jpg"
+  },
+  "079": {
+    "nombre": "La Casita Azul Loncheria",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831441123,
+    "avatarExt": ""
+  },
+  "080": {
+    "nombre": "Pozoleria Tlaquepaque",
+    "categoria": "Comida",
+    "subcategoria": "Mexicana",
+    "telefono": 9831765909,
+    "avatarExt": ""
+  },
+  "081": {
+    "nombre": "Los Dips De Chapis",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831671334,
+    "avatarExt": ""
+  },
+  "082": {
+    "nombre": "Carnitas Michoacanas Don Fili",
+    "categoria": "Comida",
+    "subcategoria": "Mexicana",
+    "telefono": 9831106034,
+    "avatarExt": ""
+  },
+  "083": {
+    "nombre": "Boys Pizza",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831169000,
+    "avatarExt": "jpg"
+  },
+  "084": {
+    "nombre": "Tajal Café Restaurante",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831687419,
+    "avatarExt": "jpg"
+  },
+  "085": {
+    "nombre": "Cocinerami",
+    "categoria": "Comida",
+    "subcategoria": "Mexicana",
+    "telefono": 9831194096,
+    "avatarExt": ""
+  },
+  "086": {
+    "nombre": "Nutri Time",
+    "categoria": "Comida",
+    "subcategoria": "Saludable",
+    "telefono": 9831020589,
+    "avatarExt": ""
+  },
+  "087": {
+    "nombre": "Muhe Salads",
+    "categoria": "Comida",
+    "subcategoria": "Saludable",
+    "telefono": 9838329706,
+    "avatarExt": ""
+  },
+  "088": {
+    "nombre": "Zona Sana",
+    "categoria": "Comida",
+    "subcategoria": "Saludable",
+    "telefono": 9831377869,
+    "avatarExt": ""
+  },
+  "089": {
+    "nombre": "Saborines Coki",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831768107,
+    "avatarExt": ""
+  },
+  "090": {
+    "nombre": "Hogar y Pizza",
+    "categoria": "Comida",
+    "subcategoria": "Italiana",
+    "telefono": 9831718132,
+    "avatarExt": ""
+  },
+  "091": {
+    "nombre": "Taqueria TaCon Madre",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831027131,
+    "avatarExt": ""
+  },
+  "092": {
+    "nombre": "Tortas Perronas",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831319596,
+    "avatarExt": ""
+  },
+  "093": {
+    "nombre": "Taqueria El Tio Taco",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831020589,
+    "avatarExt": ""
+  },
+  "094": {
+    "nombre": "La Incondicional",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831305589,
+    "avatarExt": ""
+  },
+  "095": {
+    "nombre": "Free House",
+    "categoria": "Comida",
+    "subcategoria": "Americana",
+    "telefono": 9838316451,
+    "avatarExt": ""
+  },
+  "096": {
+    "nombre": "Hojaldramania Gourmet Club",
+    "categoria": "Comida",
+    "subcategoria": "Con Antojo",
+    "telefono": 9831120225,
+    "avatarExt": ""
+  },
+  "097": {
+    "nombre": "Hotdogs Pino",
+    "categoria": "Comida",
+    "subcategoria": "Americana",
+    "telefono": 9831201305,
+    "avatarExt": ""
+  },
+  "098": {
+    "nombre": "Las Lunas",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831207828,
+    "avatarExt": ""
+  },
+  "099": {
+    "nombre": "Calamares Marisqueria",
+    "categoria": "Comida",
+    "subcategoria": "Mar y Tierra",
+    "telefono": 9831304859,
+    "avatarExt": ""
+  },
+  "100": {
+    "nombre": "Kangre Burger Grill",
+    "categoria": "Comida",
+    "subcategoria": "Hamburguesas",
+    "telefono": 9831719589,
+    "avatarExt": ""
+  },
+  "101": {
+    "nombre": "Happy Doggy",
+    "categoria": "Servicios",
+    "subcategoria": "Animales",
+    "telefono": 9831270652,
+    "avatarExt": ""
+  },
+  "102": {
+    "nombre": "Restaurante Karen Edith",
+    "categoria": "Comida",
+    "subcategoria": "Restaurante",
+    "telefono": 9831811162,
+    "avatarExt": "jpg"
+  },
+  "103": {
+    "nombre": "Los Carboncitos de Yoselin",
+    "categoria": "Comida",
+    "subcategoria": "Mexicana",
+    "telefono": 9838318987,
+    "avatarExt": ""
+  },
+  "104": {
+    "nombre": "Black Medical And Labs",
+    "categoria": "Salud",
+    "subcategoria": "De Cabecera",
+    "telefono": 9831164903,
+    "avatarExt": ""
+  },
+  "105": {
+    "nombre": "Taqueria Pastorcito's",
+    "categoria": "Comida",
+    "subcategoria": "Vitamina T",
+    "telefono": 9831380567,
+    "avatarExt": ""
+  },
+  "106": {
+    "nombre": "Motoservicios Black",
+    "categoria": "Servicios",
+    "subcategoria": "Motoservicio",
+    "telefono": 9831015526,
+    "avatarExt": ""
+  },
+  "107": {
+    "nombre": "MUV Fisioterapia En Chetumal ",
+    "categoria": "Salud",
+    "subcategoria": "De Cabecera",
+    "telefono": 9831543657,
+    "avatarExt": ""
+  },
+  "108": {
+    "nombre": "Jardineria",
+    "categoria": "Servicios",
+    "subcategoria": "Plantas",
+    "telefono": 9831842964,
+    "avatarExt": ""
+  },
+  "109": {
+    "nombre": "Dra. Nadia Karen Zavala Contreras ",
+    "categoria": "Salud",
+    "subcategoria": "De Cabecera",
+    "telefono": 9831190207,
+    "avatarExt": ""
+  },
+  "110": {
+    "nombre": "Dr. Julio Cesar Fuentes Vasquez",
+    "categoria": "Salud",
+    "subcategoria": "De Cabecera",
+    "telefono": 9838394533,
+    "avatarExt": ""
+  },
+  "111": {
+    "nombre": "Envios GDN",
+    "categoria": "Servicios",
+    "subcategoria": "Motoservicio",
+    "telefono": 9831900003,
+    "avatarExt": ""
+  }
+}

@@ -1,30 +1,29 @@
 # consumelocal
 
+<img align="right" src="assets/images/splash.png" width="250" alt="Splash Screen ConsumeLocal">
+
+## ¿Porqué ConsumeLocal?
 Surge como un proyecto para desarrollar un directorio de comercios locales y apoyar a la difusión de los negocios que se encuentran en activo a pesar de la pandemia COVID-19.
-Se pone a disposición de quien desee retormar o bien considerar algunas partes de la aplicación, sin embargo es necesario recalcar algunos aspectos importantes:
-
-- Se desarrolló en Flutter sin tener conocimientos de este SDK de Google por lo que verán cuestiones básicas en su interior.
-- Hace uso de Firebase (se elimina la configuración del servicio por cuestiones de privacidad)
 - Tuvimos la oportunidad de participar en Hack The Crisis MX en la vertical de "Reactivación Económica" con el apoyo de: Brenda Elizabeth García López - COAH / Carlos Alberto García Hernández - CDMX / Gregorio Ederli Salazar Loria - QROO
+- [Pitch ConsumeLocal HackTheCrisisMX](https://youtu.be/PsSD8Z5Qjco)[![ver](assets/images/youtube.png)](https://youtu.be/PsSD8Z5Qjco)
 
-https://youtu.be/PsSD8Z5Qjco
+## ¿Porqué con Flutter?
+- Por el hecho de querer aprender sobre este SDK y las maravillas que se pueden construir. ¡Tan sólo en una semana nació esta app!
+- Creo que tiene mucho potencial y que debemos aprender de Dart 💙
 
-Cualquier duda al respecto con gusto a través del correo isaias.cb@gmail.com
+### Primeros Auxilios:
 
+- [Documentación en linea](https://flutter-es.io/docs)
+- [Lab: Escribe tu primera app en Flutter](https://flutter-es.io/docs/get-started/codelab)
+- [Cookbook: Ejemplos de Flutter](https://flutter-es.io/docs/cookbook)
 
-# consumelocal
+## Contribuciones
 
-Local Business Directory Flutter application.
+Me gustaría agradecer a todas las personas que han hecho posible esta primera versión de ConsumeLocal en especial al GDE Flutter [Argel Bejarano](https://github.com/Arkangel12) por su feedback y ánimos para aprender.
 
-## Getting Started
+No dudes en unirte, indica algun problema (issue) que hayas detectado o alguna característica adicional y por qué no hasta una totalmente nueva app!
+Pero primero te invito a leer el archivo [CONTRIBUTING](CONTRIBUTING.md) para que conozcas de que forma hacerlo.
 
-This project is a starting point for a Flutter application.
+## Licencia
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Todo el código en este repo esta bajo la licencia MIT.
